@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.button {
+  @apply border-2 border-black py-3 px-3 lg:px-4 rounded-full text-xs lg:text-sm;
+}
+
+.box {
+  @apply flex flex-col items-center justify-center w-1/2 md:p-4 p-2 border-2 border-black rounded-3xl;
+}
+
+.experience_box {
+  @apply border-2 border-gray-500 rounded-3xl p-6 md:w-1/2;
+}
+
+.tabs {
+  @apply flex items-start sm:p-8 sm:px-2 py-4;
+}
+
+.tabs_skill {
+  @apply font-semibold px-2 lg:text-2xl sm:text-2xl md:text-sm line-clamp-1;
+}
+
+.tabs_experience {
+  @apply sm:text-sm text-xs text-gray-600 px-2 line-clamp-1;
+}
+
+.card {
+  @apply border-2 rounded-3xl flex flex-col items-center justify-center gap-4 sm:p-8 p-4;
+}
+
+.project_image {
+  @apply rounded-3xl h-full w-full;
+}
+
+.project_title {
+  @apply font-bold sm:text-2xl text-base;
+}
+
+.project_button {
+  @apply border-2 border-black rounded-md sm:w-[100px] sm:py-3 py-1 w-[70px] text-sm;
+}
