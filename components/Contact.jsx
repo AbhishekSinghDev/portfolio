@@ -81,7 +81,7 @@ const Contact = () => {
 
             <div className="text-center mt-10">
               <p className="text-sm sm:text-base">
-                Copyright © 2023 Abhishek Singh, All Rights Reserved
+                Copyright © 2024 Abhishek Singh, All Rights Reserved
               </p>
               <p className="text-sm sm:text-base">
                 Made with ❤ by Abhishek Singh
