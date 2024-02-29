@@ -28,7 +28,7 @@ const Explore = () => {
                 <Image src="/icons/tick.svg" height={30} width={30} />
                 <div>
                   <p className="tabs_skill">Typescript</p>
-                  <p className="tabs_experience">Experienced</p>
+                  <p className="tabs_experience">Intermediate</p>
                 </div>
               </div>
               <div className="tabs">

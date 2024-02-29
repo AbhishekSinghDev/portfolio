@@ -30,7 +30,7 @@ const Home = () => {
             </h3>
             <div className="flex items-center justify-center gap-2 my-3 lg:my-6">
               <Link
-                href="https://drive.google.com/file/d/1DV_saPuaIQEpl871oen2zkOlseYM39Pq/view?usp=sharing"
+                href="https://drive.google.com/file/d/1u23u0tYovIoX3lzJ89Uiu59SwdczqkAs/view?usp=sharing"
                 className="button hover:bg-[#1c1b1b] hover:text-white"
                 target="_blank"
               >

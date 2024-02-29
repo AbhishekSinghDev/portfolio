@@ -28,7 +28,7 @@ const About = () => {
                   width={35}
                   alt="experience"
                 />
-                <h1 className="font-bold text-lg">Experience</h1>
+                <h1 className="font-bold text-base">Experience</h1>
                 <p className="text-sm">1+ years</p>
                 <p className="font-semibold text-sm line-clamp-1">
                   Full-Stack Development
@@ -37,14 +37,16 @@ const About = () => {
               <div className="box w-[50%]">
                 <Image
                   src="/icons/education.svg"
-                  height={35}
-                  width={35}
+                  height={30}
+                  width={30}
                   alt="education"
                 />
-                <h1 className="font-bold text-lg">Education</h1>
-                <p className="text-sm line-clamp-1">12th Remal Public School</p>
-                <p className="font-semibold text-sm hidden sm:line-clamp-1">
+                <h1 className="font-bold text-base">Education</h1>
+                <p className="text-sm line-clamp-1">
                   Bachelor's of Computer Application
+                </p>
+                <p className="font-semibold text-sm hidden sm:line-clamp-2 text-center">
+                  Institute of Innovation in Technology and Management
                 </p>
                 <p className="font-semibold text-sm sm:hidden block">BCA</p>
               </div>
